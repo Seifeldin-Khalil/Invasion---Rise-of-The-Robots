@@ -174,8 +174,8 @@ GameObject:
   m_Component:
   - component: {fileID: 2496462250504214079}
   - component: {fileID: 2496462250504214076}
-  - component: {fileID: 6123584585246474361}
   - component: {fileID: 7700646013730671061}
+  - component: {fileID: -2909389700350949989}
   m_Layer: 8
   m_Name: Robot 1
   m_TagString: Enemy
@@ -225,7 +225,25 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.2616681, y: 0.9781704}
   m_EdgeRadius: 0
---- !u!50 &6123584585246474361
+--- !u!114 &7700646013730671061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2496462250504214072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29de9909e0881824a9b6c787bc888a6f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  health: 100
+  player: {fileID: 4574699779167843456, guid: c099589cde38154449bc19e7e4fe59e2, type: 3}
+  moveSpeed: 0
+  startTimebtwShots: 2
+  shot: {fileID: 4483029804157720557, guid: d246a38aa1f61c24d98a452ff357d018, type: 3}
+  firePoint: {fileID: 6177958782624400289}
+--- !u!50 &-2909389700350949989
 Rigidbody2D:
   serializedVersion: 4
   m_ObjectHideFlags: 0
@@ -245,25 +263,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 4
---- !u!114 &7700646013730671061
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2496462250504214072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 29de9909e0881824a9b6c787bc888a6f, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  health: 100
-  player: {fileID: 4574699779167843456, guid: c099589cde38154449bc19e7e4fe59e2, type: 3}
-  moveSpeed: 5
-  startTimebtwShots: 2
-  shot: {fileID: 4483029804157720557, guid: d246a38aa1f61c24d98a452ff357d018, type: 3}
-  firePoint: {fileID: 6177958782624400289}
+  m_Constraints: 7
 --- !u!1 &2496462251142295717
 GameObject:
   m_ObjectHideFlags: 0

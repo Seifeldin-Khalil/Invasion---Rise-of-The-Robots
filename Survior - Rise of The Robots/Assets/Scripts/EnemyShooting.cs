@@ -22,6 +22,7 @@ public class EnemyShooting : MonoBehaviour
         {
             Destroy(gameObject);
         }
+        
 
     }
     
