@@ -33,4 +33,5 @@ public class EnemyShooting : MonoBehaviour
             collision.gameObject.GetComponent<Health>().takeDamage(damage);
         }
     }
+
 }
