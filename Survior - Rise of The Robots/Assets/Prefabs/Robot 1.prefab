@@ -243,6 +243,7 @@ MonoBehaviour:
   startTimebtwShots: 2
   shot: {fileID: 4483029804157720557, guid: d246a38aa1f61c24d98a452ff357d018, type: 3}
   firePoint: {fileID: 6177958782624400289}
+  healthdrop: {fileID: 1813280520339853611, guid: 38a0585348b4a244eae785d6c22d86af, type: 3}
 --- !u!50 &-2909389700350949989
 Rigidbody2D:
   serializedVersion: 4

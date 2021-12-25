@@ -159,7 +159,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 2014613095}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 5
@@ -437,6 +437,14 @@ PrefabInstance:
     - target: {fileID: 6123584585246474361, guid: f5bdb6687c5cc83478a2fd5b6f2829f0, type: 3}
       propertyPath: m_SleepingMode
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7700646013730671061, guid: f5bdb6687c5cc83478a2fd5b6f2829f0, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 2014613095}
+    - target: {fileID: 7700646013730671061, guid: f5bdb6687c5cc83478a2fd5b6f2829f0, type: 3}
+      propertyPath: moveSpeed
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5bdb6687c5cc83478a2fd5b6f2829f0, type: 3}
@@ -782,11 +790,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 160
+      value: 334.4947
       objectReference: {fileID: 0}
     - target: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 20
+      value: 41.5077
       objectReference: {fileID: 0}
     - target: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
       propertyPath: m_LocalPosition.x
@@ -818,11 +826,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -425.5
+      value: -783.47253
       objectReference: {fileID: 0}
     - target: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -186.9
+      value: -516.38776
       objectReference: {fileID: 0}
     - target: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -8496,5 +8504,9 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2014613095}
+    - target: {fileID: 7700646013730671061, guid: f5bdb6687c5cc83478a2fd5b6f2829f0, type: 3}
+      propertyPath: moveSpeed
+      value: 3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f5bdb6687c5cc83478a2fd5b6f2829f0, type: 3}
