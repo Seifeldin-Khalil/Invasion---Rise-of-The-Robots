@@ -13,6 +13,7 @@ public class Enemies : MonoBehaviour
     public float startTimebtwShots;
     public GameObject shot;
     public Transform firePoint;
+    public GameObject healthdrop;
 
 
     private void Start()
@@ -61,6 +62,7 @@ public class Enemies : MonoBehaviour
     void Die()
     {
         Destroy(gameObject);
+        Instantiate(healthdrop);
     }
     
 }
