@@ -14,6 +14,7 @@ public class Enemies : MonoBehaviour
     public GameObject shot;
     public Transform firePoint;
     public GameObject healthdrop;
+    public Transform healthdropPoint;
 
 
     private void Start()
@@ -57,12 +58,13 @@ public class Enemies : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            Instantiate(healthdrop, firePoint.position, firePoint.rotation);
         }
     }
     void Die()
     {
         Destroy(gameObject);
-        Instantiate(healthdrop);
+        
     }
     
 }

@@ -5,11 +5,14 @@ using UnityEngine.UI;
 
 public class Health : MonoBehaviour
 {
+    public static Health Playerhealth;
+    
     public float maxHealth =100;
     public float health;
     public Slider HealthUI;
     public Gradient gradient;
     public Image fill;
+    public int healthPickup;
 
     void Start()
     {
