@@ -407,6 +407,9 @@ TextureImporter:
   - first:
       213: 1668900439606096701
     second: Park_TileMap_134
+  - first:
+      213: 1294432825700784188
+    second: Park_TileMap_135
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -1844,9 +1847,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 486
-        y: 448
+        y: 457
         width: 24
-        height: 62
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3326,6 +3329,27 @@ TextureImporter:
       bones: []
       spriteID: d33f63c8b10292710800000000000000
       internalID: 1668900439606096701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Park_TileMap_135
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 494
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c381089fbcfb6f110800000000000000
+      internalID: 1294432825700784188
       vertices: []
       indices: 
       edges: []
