@@ -3729,6 +3729,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1276019721}
   - component: {fileID: 1276019720}
+  - component: {fileID: 1276019722}
   m_Layer: 0
   m_Name: End Collider
   m_TagString: Untagged
@@ -3746,7 +3747,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -1.1080136, y: -1.0007858}
@@ -3776,6 +3777,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 26
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1276019722
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1276019719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 658825c2b856f8c4da489f7ff7fbafb7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1405532948
 GameObject:
   m_ObjectHideFlags: 0
@@ -4386,7 +4399,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878558645}
   m_LocalRotation: {x: -0, y: -0, z: -0.7053019, w: 0.7089071}
-  m_LocalPosition: {x: -19.81, y: -12.14, z: 0}
+  m_LocalPosition: {x: -21.09, y: -12.4, z: 0}
   m_LocalScale: {x: 2.379155, y: 1.9625086, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4688,7 +4701,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2071705291}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.08, y: -11.57, z: -10}
+  m_LocalPosition: {x: -26.91, y: -12.42, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -4887,7 +4900,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2076024223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.08, y: -11.57, z: -10}
+  m_LocalPosition: {x: -26.91, y: -12.42, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1118477964}
@@ -4939,6 +4952,7 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   fill: {fileID: 0}
+  healthPickup: 0
 --- !u!114 &4574699780092816611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5029,7 +5043,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4574699780092816617}
   m_LocalRotation: {x: -0, y: -0, z: -0.99862164, w: 0.052487742}
-  m_LocalPosition: {x: 11.08, y: -11.57, z: 0}
+  m_LocalPosition: {x: -26.91, y: -12.42, z: 0}
   m_LocalScale: {x: 1.0228368, y: 1.2882813, z: 1}
   m_Children:
   - {fileID: 4574699780156827446}
