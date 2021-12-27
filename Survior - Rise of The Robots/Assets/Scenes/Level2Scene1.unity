@@ -3786,7 +3786,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1276019719}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 658825c2b856f8c4da489f7ff7fbafb7, type: 3}
+  m_Script: {fileID: 11500000, guid: be585a7101c139345a70394204dec5ae, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1405532948
@@ -4952,7 +4952,6 @@ MonoBehaviour:
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   fill: {fileID: 0}
-  healthPickup: 0
 --- !u!114 &4574699780092816611
 MonoBehaviour:
   m_ObjectHideFlags: 0
