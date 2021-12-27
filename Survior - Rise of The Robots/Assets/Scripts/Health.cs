@@ -12,7 +12,7 @@ public class Health : MonoBehaviour
     public Slider HealthUI;
     public Gradient gradient;
     public Image fill;
-    public int healthPickup;
+    
 
     void Start()
     {
@@ -40,6 +40,15 @@ public class Health : MonoBehaviour
     {
         Destroy(gameObject);
         HealthUI.value = 0;
+    }
+
+    public void healHealth(int heal)
+    {
+        health += heal;
+        if (health >= 100)
+        {
+            health = maxHealth;
+        }
     }
 
 }

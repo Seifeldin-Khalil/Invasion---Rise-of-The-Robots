@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 976007175312005046}
   m_LocalRotation: {x: 0, y: 0, z: -0.44594005, w: 0.8950628}
-  m_LocalPosition: {x: 0.63, y: 2.84, z: 0}
+  m_LocalPosition: {x: -0.65, y: 2.41, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2496462250504214079}
@@ -221,7 +221,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2496462250504214072}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.9302, y: -4.93, z: -26.300774}
+  m_LocalPosition: {x: -2.9302, y: -4.93, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2496462251723065280}
@@ -270,7 +270,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 100
   player: {fileID: 4574699779167843456, guid: c099589cde38154449bc19e7e4fe59e2, type: 3}
-  moveSpeed: 0
+  moveSpeed: 5
   startTimebtwShots: 2
   shot: {fileID: 4483029804157720557, guid: d246a38aa1f61c24d98a452ff357d018, type: 3}
   firePoint: {fileID: 6177958782624400289}
