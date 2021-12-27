@@ -22,8 +22,8 @@ public class EnemyShooting : MonoBehaviour
         {
             Destroy(gameObject);
         }
-        
 
+        Destroy(gameObject, 4f);
     }
     
     private void OnTriggerEnter2D(Collider2D collision)
