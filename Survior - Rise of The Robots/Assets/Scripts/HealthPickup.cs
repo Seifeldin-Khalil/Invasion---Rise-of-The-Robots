@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class HealthPickup : MonoBehaviour
 {
-    public int value;
-    //public enum objectpickup { HEALTHPICKUP };
-    //public objectpickup currObj;
-     void OnTriggerEnter2D(Collider2D collision)
+    public int heal;
+    
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Player")
+        if (collision.gameObject.tag == "Player")
         {
-            Health.Playerhealth.healthPickup += value;
-            Debug.Log(Health.Playerhealth.healthPickup);
+            collision.gameObject.GetComponent<Health>().healHealth(heal);
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
+       
     }
 }
