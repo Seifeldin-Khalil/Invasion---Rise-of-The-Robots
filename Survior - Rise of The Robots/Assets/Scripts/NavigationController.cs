@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NavigationController :LevelManager
+public class NavigationController : LevelManager
 {
     // Main Menu Scene
     public void GoToIntroScene()
@@ -21,7 +21,7 @@ public class NavigationController :LevelManager
     
     public void Respawn()
     {
-        LevelManager.respawnplayer();
+        base.respawnplayer();
     }
     //// Level 1 Scene 2 
     //public void GoToGameScene12()
