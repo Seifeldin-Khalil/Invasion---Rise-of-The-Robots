@@ -15,44 +15,44 @@ public class NavigationController : MonoBehaviour
     {
         Application.LoadLevel(1);
     }
-    // Level 1 Scene 2 
-    public void GoToGameScene12()
-    {
-        Application.LoadLevel(2);
-    }
+    //// Level 1 Scene 2 
+    //public void GoToGameScene12()
+    //{
+    //    Application.LoadLevel(2);
+    //}
 
-    // Level 2 Scene 1 
-    public void GoToGameScene21()
-    {
-        Application.LoadLevel(3);
-    }
-    // Level 2 Scene 2 
-    public void GoToGameScene22()
-    {
-        Application.LoadLevel(4);
-    }
+    //// Level 2 Scene 1 
+    //public void GoToGameScene21()
+    //{
+    //    Application.LoadLevel(3);
+    //}
+    //// Level 2 Scene 2 
+    //public void GoToGameScene22()
+    //{
+    //    Application.LoadLevel(4);
+    //}
 
-    // Level 3 Scene 1 
-    public void GoToGameScene31()
-    {
-        Application.LoadLevel(5);
-    }
-    // Level 3 Scene 2 
-    public void GoToGameScene32()
-    {
-        Application.LoadLevel(5);
-    }
+    //// Level 3 Scene 1 
+    //public void GoToGameScene31()
+    //{
+    //    Application.LoadLevel(5);
+    //}
+    //// Level 3 Scene 2 
+    //public void GoToGameScene32()
+    //{
+    //    Application.LoadLevel(5);
+    //}
 
-    // Level 4 Scene 1 
-    public void GoToGameScene41()
-    {
-        Application.LoadLevel(6);
-    }
-    // Level 4 Scene 2 
-    public void GoToGameScene42()
-    {
-        Application.LoadLevel(7);
-    }
+    //// Level 4 Scene 1 
+    //public void GoToGameScene41()
+    //{
+    //    Application.LoadLevel(6);
+    //}
+    //// Level 4 Scene 2 
+    //public void GoToGameScene42()
+    //{
+    //    Application.LoadLevel(7);
+    //}
 
     public void GoToGameOverScene()
     {
