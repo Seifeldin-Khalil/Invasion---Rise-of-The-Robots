@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NavigationController : MonoBehaviour
+public class NavigationController :LevelManager
 {
     // Main Menu Scene
     public void GoToIntroScene()
@@ -17,6 +17,11 @@ public class NavigationController : MonoBehaviour
     public void GoToGameScene11()
     {
         Application.LoadLevel(2);
+    }
+    
+    public void Respawn()
+    {
+        LevelManager.respawnplayer();
     }
     //// Level 1 Scene 2 
     //public void GoToGameScene12()
