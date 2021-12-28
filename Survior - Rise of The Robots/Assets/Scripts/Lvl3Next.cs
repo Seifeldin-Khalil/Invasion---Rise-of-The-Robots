@@ -8,7 +8,7 @@ public class Lvl3Next : MonoBehaviour
     // Start is called before the first frame updat
     void loadover()
     {
-        SceneManager.LoadScene("Scene1");
+        SceneManager.LoadScene("cutscene2");
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
