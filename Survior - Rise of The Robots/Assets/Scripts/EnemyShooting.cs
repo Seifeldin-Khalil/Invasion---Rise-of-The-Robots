@@ -30,12 +30,16 @@ public class EnemyShooting : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<Health>().takeDamage(damage);
+            Destroy(gameObject);
         }
+        
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        Destroy(gameObject);
+        
+            Destroy(gameObject);
+        
     }
 
 }
