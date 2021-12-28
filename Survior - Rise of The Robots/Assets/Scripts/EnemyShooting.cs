@@ -30,8 +30,8 @@ public class EnemyShooting : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             collision.gameObject.GetComponent<Health>().takeDamage(damage);
-            Destroy(gameObject);
-        }
+            
+        }Destroy(gameObject);
         
     }
 
