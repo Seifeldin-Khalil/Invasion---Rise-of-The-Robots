@@ -240,7 +240,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90.334}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -333, y: 64}
+  m_AnchoredPosition: {x: -271, y: 64}
   m_SizeDelta: {x: 111.4526, y: 151.8348}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &400249009
@@ -419,8 +419,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 105, y: 110}
-  m_SizeDelta: {x: 160, y: 30}
+  m_AnchoredPosition: {x: 79, y: 101}
+  m_SizeDelta: {x: 504.2978, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &741133061
 MonoBehaviour:
@@ -455,7 +455,16 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: dffffffffffffffffffffff
+  m_Text: 'Hi Alex, My name is Frank a retired US marine and guns expert. I''m here
+    to tell you that you are the humanity''s last chance, only few steps remaining.
+    You should continue to kill the robots and to meet Ultron.
+
+
+    Here is an update
+    to your guns and an armor, you can now kill robots faster.
+
+
+    Keep going Alex.'
 --- !u!222 &741133062
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -498,7 +507,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 179.604}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -333, y: -68}
+  m_AnchoredPosition: {x: -271, y: -68}
   m_SizeDelta: {x: 151.8348, y: 111.4526}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &752349230
@@ -648,8 +657,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000015259, y: 0}
-  m_SizeDelta: {x: 853.8314, y: 286.7966}
+  m_AnchoredPosition: {x: -2.9831, y: 0}
+  m_SizeDelta: {x: 742.8611, y: 286.7966}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1621749028
 MonoBehaviour:
