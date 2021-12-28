@@ -54,10 +54,10 @@ public class NavigationController : MonoBehaviour
     //    Application.LoadLevel(7);
     //}
 
-    //public void GoToGameOverScene()
-    //{
-    //    Application.LoadLevel(8);
-    //}
+    public void GoToGameOverScene()
+    {
+        Application.LoadLevel(8);
+    }
     public void GoToVictoryScene()
     {
         Application.LoadLevel(9);
