@@ -1,28 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class level4next : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    void loadover()
     {
-        
-    }
-}
-void loadover()
-{
     SceneManager.LoadScene("Ultron");
+    }
+
+    void OnTriggerEnter2D(Collider2D collider)
+    {
+    loadover();
+    } 
 }
 
-void OnTriggerEnter2D(Collider2D collider)
-{
-    loadover();
-} 
 
