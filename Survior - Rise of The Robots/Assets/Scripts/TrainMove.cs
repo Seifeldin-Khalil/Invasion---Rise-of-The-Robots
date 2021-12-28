@@ -17,9 +17,9 @@ public class TrainMove : MonoBehaviour
     {
         
     }
-    void OnTriggerEnter2D (Collider2D other)
+    void OnTriggerEnter2D (Collider2D collider)
     {
-        if (other.tag == "Train")
+        if (collider.tag == "Train")
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             Alex.SetActive(false);
