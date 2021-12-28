@@ -6,23 +6,15 @@ public class TrainMove : MonoBehaviour
 {
     public float moveSpeed;
     public GameObject Alex;
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
-    }
-    void OnTriggerEnter2D (Collider2D collider)
-    {
-        if (collider.tag == "Train")
+        if (collision.gameObject.tag == "Player")
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(moveSpeed, GetComponent<Rigidbody2D>().velocity.y);
             Alex.SetActive(false);
         }
+
+
     }
 }

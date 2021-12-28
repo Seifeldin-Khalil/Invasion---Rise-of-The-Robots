@@ -12,7 +12,8 @@ public class Enemies : MonoBehaviour
     private float timebtwShots;
     public float startTimebtwShots;
     public GameObject shot;
-    public Transform firePoint;
+    public Transform firePoint1;
+    public Transform firePoint2;
     public GameObject healthdrop;
     public Transform healthdropPoint;
     
@@ -34,7 +35,8 @@ public class Enemies : MonoBehaviour
 
         if (timebtwShots <= 0)
         {
-            Instantiate(shot, firePoint.position, firePoint.rotation);
+            Instantiate(shot, firePoint1.position, firePoint1.rotation);
+            Instantiate(shot, firePoint2.position, firePoint2.rotation);
             timebtwShots = startTimebtwShots;
         }
         else
