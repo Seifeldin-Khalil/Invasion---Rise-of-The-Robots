@@ -9,17 +9,20 @@ public class NavigationController : MonoBehaviour
     {
         Application.LoadLevel(0);
     }
-
+    public void GoToGameCutScene1()
+    {
+        Application.LoadLevel(1);
+    }
     // Level 1 Scene 1 
     public void GoToGameScene11()
     {
-        Application.LoadLevel(1);
+        Application.LoadLevel(2);
     }
     //// Level 1 Scene 2 
     //public void GoToGameScene12()
     //{
     //    Application.LoadLevel(2);
-    //}
+    //}1
 
     //// Level 2 Scene 1 
     //public void GoToGameScene21()
@@ -28,7 +31,7 @@ public class NavigationController : MonoBehaviour
     //}
     //// Level 2 Scene 2 
     //public void GoToGameScene22()
-    //{
+    //{2
     //    Application.LoadLevel(4);
     //}
 
@@ -56,11 +59,11 @@ public class NavigationController : MonoBehaviour
 
     public void GoToGameOverScene()
     {
-        Application.LoadLevel(8);
+        Application.LoadLevel(10);
     }
     public void GoToVictoryScene()
     {
-        Application.LoadLevel(9);
+        Application.LoadLevel(11);
     }
     public void Quit()
     {
