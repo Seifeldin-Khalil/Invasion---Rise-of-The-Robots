@@ -26,6 +26,6 @@ public class WoodsScript : MonoBehaviour
             dialogueManager.SetSentences(dialogue);
             dialogueManager.StartCoroutine(dialogueManager.TypeDialogue());
         }
-        
+
     }
 }

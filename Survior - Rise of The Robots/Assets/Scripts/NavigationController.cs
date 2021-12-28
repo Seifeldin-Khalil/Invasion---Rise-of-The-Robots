@@ -56,11 +56,11 @@ public class NavigationController : MonoBehaviour
 
     public void GoToGameOverScene()
     {
-        Application.LoadLevel(8);
+        Application.LoadLevel(10);
     }
     public void GoToVictoryScene()
     {
-        Application.LoadLevel(9);
+        Application.LoadLevel(11);
     }
     public void Quit()
     {

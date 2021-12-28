@@ -31,15 +31,16 @@ public class EnemyShooting : MonoBehaviour
         {
             collision.gameObject.GetComponent<Health>().takeDamage(damage);
             
-        }Destroy(gameObject);
+        }
+        Destroy(gameObject);
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
-            Destroy(gameObject);
-        
-    }
+    //private void OnCollisionEnter2D(Collision2D collision)
+    //{
+
+    //    Destroy(gameObject);
+
+    //}
 
 }
