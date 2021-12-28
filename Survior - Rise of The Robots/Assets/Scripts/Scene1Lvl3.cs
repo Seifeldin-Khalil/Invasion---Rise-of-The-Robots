@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Scene1Lvl3 : MonoBehaviour
 {
@@ -20,7 +21,7 @@ public class Scene1Lvl3 : MonoBehaviour
         SceneManager.LoadScene("Scene1");
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    void OnTriggerEnter2D(Collider2D collisder)
     {
         loadover();
     }
