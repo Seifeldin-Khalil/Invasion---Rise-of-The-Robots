@@ -41,10 +41,10 @@ public class NavigationController : MonoBehaviour
     //    Application.LoadLevel(5);
     //}
     //// Level 3 Scene 2 
-    //public void GoToGameScene32()
-    //{
-    //    Application.LoadLevel(5);
-    //}
+    public void GoToGameScene31()
+    {
+        Application.LoadLevel(8);
+    }
 
     //// Level 4 Scene 1 
     //public void GoToGameScene41()
@@ -59,11 +59,11 @@ public class NavigationController : MonoBehaviour
 
     public void GoToGameOverScene()
     {
-        Application.LoadLevel(10);
+        Application.LoadLevel(11);
     }
     public void GoToVictoryScene()
     {
-        Application.LoadLevel(11);
+        Application.LoadLevel(12);
     }
     public void Quit()
     {
