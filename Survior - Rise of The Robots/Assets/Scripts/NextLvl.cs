@@ -21,8 +21,12 @@ public class NextLvl : MonoBehaviour
         SceneManager.LoadScene("Scene1");
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        loadover();
+        if (collision.gameObject.tag == "Player")
+        {
+            loadover();
+        }
+
     }
 }

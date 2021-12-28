@@ -11,10 +11,14 @@ public class level4next : MonoBehaviour
     SceneManager.LoadScene("Ultron");
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-    loadover();
-    } 
+        if (collision.gameObject.tag == "Player")
+        {
+            loadover();
+        }
+
+    }
 }
 
 
