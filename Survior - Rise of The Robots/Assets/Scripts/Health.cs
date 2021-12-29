@@ -12,12 +12,14 @@ public class Health : MonoBehaviour
     public Slider HealthUI;
     public Gradient gradient;
     public Image fill;
+    public int lives=3;
     
 
     void Start()
     {
         health = maxHealth;
         fill.color = gradient.Evaluate(1f);
+        
     }
 
     
@@ -46,6 +48,11 @@ public class Health : MonoBehaviour
     {
         gameObject.SetActive(false);
         HealthUI.value = 0;
+        lives--;
+        if (lives == 0)
+        {
+            (new NavigationController()).GoToGameOverScene();
+        }
     }
 
     public void healHealth(int heal)
