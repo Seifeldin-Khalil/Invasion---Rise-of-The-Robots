@@ -34,13 +34,17 @@ public class Health : MonoBehaviour
         if (health <= 0)
         {
             Die();
+            //test line 
+            gameObject.SetActive(true);
+            Start();
+            FindObjectOfType<LevelManager>().respawnplayer();
             // new line 
-            (new NavigationController()).GoToGameOverScene();
+            //(new NavigationController()).GoToGameOverScene();
         }
     }
     void Die()
     {
-        Destroy(gameObject);
+        gameObject.SetActive(false);
         HealthUI.value = 0;
     }
 

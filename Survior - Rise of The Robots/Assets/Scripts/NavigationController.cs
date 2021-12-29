@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NavigationController : LevelManager
+public class NavigationController : MonoBehaviour
 {
+    public LevelManager lm;
+
     // Main Menu Scene
     public void GoToIntroScene()
     {
@@ -19,10 +21,10 @@ public class NavigationController : LevelManager
         Application.LoadLevel(2);
     }
     
-    public void Respawn()
-    {
-        base.respawnplayer();
-    }
+    //public void Respawn()
+    //{
+    //    lm.respawnplayer();
+    //}
     //// Level 1 Scene 2 
     //public void GoToGameScene12()
     //{
@@ -77,7 +79,7 @@ public class NavigationController : LevelManager
     // Start is called before the first frame update
     void Start()
     {
-        
+        lm = FindObjectOfType<LevelManager>();
     }
 
     // Update is called once per frame
