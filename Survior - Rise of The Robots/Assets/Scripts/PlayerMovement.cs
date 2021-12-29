@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
 
     public Camera cam;
-    public Animator animator;
+    
     
 
     Vector2 movement;
@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void Start()
     {
-        animator = GetComponent<Animator>();
+        
     }
     void Update()
     {
