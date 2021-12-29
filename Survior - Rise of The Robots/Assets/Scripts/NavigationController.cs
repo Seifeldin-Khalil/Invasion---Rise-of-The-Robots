@@ -20,6 +20,11 @@ public class NavigationController : MonoBehaviour
     {
         Application.LoadLevel(2);
     }
+
+    public void GoToControlScreen()
+    {
+        Application.LoadLevel(13);
+    }
     
     //public void Respawn()
     //{
@@ -64,10 +69,10 @@ public class NavigationController : MonoBehaviour
     //    Application.LoadLevel(7);
     //}
 
-    public void GoToGameOverScene()
-    {
-        Application.LoadLevel(11);
-    }
+    //public void GoToGameOverScene()
+    //{
+    //    Application.LoadLevel(11);
+    //}
     public void GoToVictoryScene()
     {
         Application.LoadLevel(12);
