@@ -201,7 +201,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 70633024}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.827472, y: 2.203065, z: -10}
+  m_LocalPosition: {x: 13.17, y: 3.4011998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2780,7 +2780,7 @@ MonoBehaviour:
   m_Priority: 10
   m_StandbyUpdate: 2
   m_LookAt: {fileID: 0}
-  m_Follow: {fileID: 0}
+  m_Follow: {fileID: 1451478609}
   m_Lens:
     FieldOfView: 60
     OrthographicSize: 7
@@ -2804,7 +2804,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 927588209}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.827472, y: 2.203065, z: -10}
+  m_LocalPosition: {x: 13.17, y: 3.4011998, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 659703800}
@@ -4050,7 +4050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 5
   rb: {fileID: 1451478616}
-  cam: {fileID: 0}
+  cam: {fileID: 70633026}
 --- !u!50 &1451478616
 Rigidbody2D:
   serializedVersion: 4
