@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 831661949}
   - component: {fileID: 831661951}
   - component: {fileID: 831661950}
+  - component: {fileID: 831661952}
   m_Layer: 5
   m_Name: Image
   m_TagString: Untagged
@@ -283,6 +284,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 831661948}
   m_CullTransparentMesh: 1
+--- !u!114 &831661952
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 831661948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 04808052f3cc4e1419b5cb500e3b0e5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PauseScreen: {fileID: 1795500114}
+  PauseButton: 27
 --- !u!1 &924440816
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +381,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1795500115}
+      - m_Target: {fileID: 0}
         m_TargetAssemblyTypeName: PauseResume, Assembly-CSharp
         m_MethodName: Resume
         m_Mode: 1
@@ -653,7 +668,6 @@ GameObject:
   - component: {fileID: 1795500118}
   - component: {fileID: 1795500117}
   - component: {fileID: 1795500116}
-  - component: {fileID: 1795500115}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -661,20 +675,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1795500115
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1795500114}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04808052f3cc4e1419b5cb500e3b0e5a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  PauseScreen: {fileID: 1795500114}
-  PauseButton: 27
 --- !u!114 &1795500116
 MonoBehaviour:
   m_ObjectHideFlags: 0
