@@ -13,6 +13,7 @@ public class Health : MonoBehaviour
     public Gradient gradient;
     public Image fill;
     
+    
 
     void Start()
     {
@@ -30,21 +31,18 @@ public class Health : MonoBehaviour
     public void takeDamage(int damage)
     {
         health -= damage;
-
+       
         if (health <= 0)
         {
             Die();
-            //test line 
-            gameObject.SetActive(true);
-            Start();
-            FindObjectOfType<LevelManager>().respawnplayer();
             // new line 
-            //(new NavigationController()).GoToGameOverScene();
-        }
+            (new NavigationController()).GoToGameOverScene();
+        } 
+        
     }
     void Die()
     {
-        gameObject.SetActive(false);
+        Destroy(gameObject);
         HealthUI.value = 0;
     }
 
@@ -55,6 +53,7 @@ public class Health : MonoBehaviour
         {
             health = maxHealth;
         }
+        
     }
 
 }
