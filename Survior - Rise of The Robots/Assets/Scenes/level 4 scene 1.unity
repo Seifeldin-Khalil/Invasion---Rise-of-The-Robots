@@ -2915,8 +2915,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2fb1e25e80e5e784e9627fcc9cdc70c0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  firePoint: {fileID: 366412667756246523, guid: d2536a463aa4ab8429ae6debdf6314b7, type: 3}
-  bulletPrefab: {fileID: 7112338373364019588, guid: f040b71b2c61e594c9b51f5038372ccc, type: 3}
+  firePoint: {fileID: 2113693782}
+  bulletPrefab: {fileID: 5619263967412926284, guid: d2536a463aa4ab8429ae6debdf6314b7, type: 3}
   bulletForce: 20
 --- !u!114 &933329755
 MonoBehaviour:
@@ -3948,8 +3948,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 113704241
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 1.1, y: 1.1, z: 0}
