@@ -445,9 +445,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1798989150}
+      - m_Target: {fileID: 1798989151}
         m_TargetAssemblyTypeName: NavigationController, Assembly-CSharp
-        m_MethodName: 
+        m_MethodName: GoToGameScene11
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -739,6 +739,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac03a7a9af3a4b24c9a133654cbe93ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  lm: {fileID: 0}
 --- !u!114 &1798989152
 MonoBehaviour:
   m_ObjectHideFlags: 0
