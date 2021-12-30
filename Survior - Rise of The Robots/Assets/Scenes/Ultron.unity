@@ -603,7 +603,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   maxHealth: 100
   health: 100
-  HealthUI: {fileID: 0}
+  HealthUI: {fileID: 794705551}
   gradient:
     serializedVersion: 2
     key0: {r: 0.94509804, g: 0, b: 0.03137255, a: 1}
@@ -633,7 +633,7 @@ MonoBehaviour:
     m_Mode: 0
     m_NumColorKeys: 3
     m_NumAlphaKeys: 2
-  fill: {fileID: 0}
+  fill: {fileID: 794705550}
   lives: 3
 --- !u!61 &83069492
 BoxCollider2D:
@@ -26154,6 +26154,28 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7041208796039852181, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
   m_PrefabInstance: {fileID: 794705548}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &794705550 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7041208796528207622, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
+  m_PrefabInstance: {fileID: 794705548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &794705551 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7041208796039852180, guid: bd7b3dfba2832a74ebe2948d705083e6, type: 3}
+  m_PrefabInstance: {fileID: 794705548}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &802935381
 GameObject:
   m_ObjectHideFlags: 0
